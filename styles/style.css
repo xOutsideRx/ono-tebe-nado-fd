@@ -264,8 +264,8 @@
 
 .about__logo-image {
     width: 150px;
-    width: 150px;
-    margin: 37px auto;
+    height: 150px;
+    margin: 45px auto;
 }
 
 .about__column-right {
