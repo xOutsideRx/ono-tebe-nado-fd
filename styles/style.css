@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 86px 50px 96px;
+    padding: 93px 50px 96px;
 }
 
 .header__links-list {
@@ -76,7 +76,7 @@
 .cover__title {
     width: 1000px;
     height: 385px;
-    margin-bottom: 86px;
+    margin-bottom: 85px;
     display: flex;
     color: #fff;
     font-size: 100px;
@@ -335,6 +335,10 @@
     color: #333;
 }
 
+.footer__menu {
+    padding-top: 3px;
+}
+
 .footer__menu-link {
     color: #333;
 }
@@ -350,7 +354,6 @@
     display: flex;
     justify-content: flex-start;
     list-style: none;
-    padding: 0;
     gap: 48px;
 }
 
