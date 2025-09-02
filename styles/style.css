@@ -187,19 +187,19 @@
     margin-left: 9px;
 }
 
-.card__type-movie_1 {
-    background: url(../images/lot-01.svg);
+.card__type-movie_left {
+    background: url(../images/lot-01.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.card__type-movie_2 {
+.card__type-movie_center {
     background: url(../images/lot-02.svg) 60%;
     background-size: cover;
     background-position: center;
 }
 
-.card__type-movie_3 {
+.card__type-movie_right {
     background: url(../images/lot-03.svg);
     background-size: cover;
     background-position: center;
