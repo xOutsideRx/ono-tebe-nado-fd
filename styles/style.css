@@ -101,7 +101,7 @@
     text-align: center;
     z-index: 0;
     position: relative;
-    top: 2px;
+    top: 3px;
     left: 16px;
 }
 
@@ -156,6 +156,10 @@
     padding: 178px 24px 0;
 }
 
+.lots__link {
+    text-decoration: none;
+}
+
 .lots__heading {
     margin: 2px 40px 27px;
     font-size: 40px;
@@ -165,6 +169,7 @@
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 25px;
     justify-content: center;
     width: 100%;
 }
@@ -189,7 +194,6 @@
     display: block;
     height: 100%;
     text-decoration: none;
-    margin-left: 25px;
 }
 
 .card__type-movie_left {
@@ -202,9 +206,6 @@
 
 .card__type-movie_right {
     background: url(../images/lot-03.svg);
-}
-.card__margin {
-    margin-left: 32px
 }
 
 .card__title {
@@ -319,13 +320,16 @@
 }
 
 .footer__menu-list {
-    list-style: none;
-    text-decoration: underline;
     padding: 0;
 }
 
 .footer__menu-list-item {
+    text-decoration: underline;
     margin: 11px 0;
+}
+
+.footer__menu-link-active {
+    text-decoration: none;
 }
 
 .footer a {
