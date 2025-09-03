@@ -42,7 +42,6 @@
     justify-content: space-between;
     line-height: 1.55;
     text-underline-offset: 0.3em;
-
     letter-spacing: 1.2px;
 }
 
@@ -56,10 +55,6 @@
 .address a {
     border-bottom: 1px;
     text-decoration: underline;
-}
-
-p.address-menu {
-    text-decoration-line: none;
 }
 
 .cover {
@@ -332,15 +327,6 @@ p.address-menu {
 .footer__menu-list-item {
     margin: 11px 0;
 }
-
-.footer__menu-link-active {
-    text-decoration: none;
-}
-
-.footer__links-list-item_no-bullit {
-    text-decoration: none;
-}
-
 
 .footer a {
     color: #333;
