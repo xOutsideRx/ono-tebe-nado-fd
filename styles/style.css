@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px 95px;
+    padding: 83px 50px 87px;
 }
 
 .header__links-list {
@@ -43,13 +43,13 @@
     line-height: 1.55;
     text-underline-offset: 0.3em;
     letter-spacing: 1.2px;
+    padding-top: 12px;
 }
 
 .header__address {
     width: 240px;
-    max-height: 98px;
     justify-self: end;
-    padding-bottom: 14px;
+    padding-bottom: 12px;
 }
 
 .address a {
@@ -59,8 +59,7 @@
 
 .cover {
     position: relative;
-    padding: 181px 50px 63px;
-    margin-top: 1px;
+    padding: 165px 50px 63px;
     background: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
@@ -76,7 +75,7 @@
 
 .cover__title {
     width: 1000px;
-    margin-bottom: 108px;
+    margin-bottom: 96px;
     display: flex;
     color: #fff;
     font-size: 100px;
@@ -90,27 +89,24 @@
 .aligned__text {
     display: block;
     line-height: 1;
-    margin-top: 0;
-    margin-right: 0;
+    margin-top: 7px;
     z-index: 0;
-    position: relative;
-    bottom: 8px;
 }
 
 .aligned__text-center {
+    display: block;
     text-align: center;
     z-index: 0;
-    position: relative;
-    top: 3px;
-    left: 16px;
+    padding-top: 3.5px;
+    padding-left: 30px;
 }
 
 .aligned__text-right {
     text-align: right;
+    padding-top: 4px;
+    margin-right: -30px;
+    /* Иной вариант - padding-left: 614px; (Пробовал всё, без отрицательного значения это не двигается)*/
     z-index: 0;
-    position: relative;
-    top: 12px;
-    left: 31px;
 }
 
 .cover__description {
@@ -125,10 +121,8 @@
     font-size: 22px;
     text-transform: uppercase;
     text-align: start;
-    margin-bottom: 29px;
     margin-right: 37px;
-    position: relative;
-    top: 30px;
+    padding-top: 29px;
     letter-spacing: 0px;
     word-spacing: 19px;
     z-index: 0;
@@ -141,7 +135,7 @@
 .bet-button {
     width: 256px;
     height: 51px;
-    border: 1px solid #fff;
+    border: 1px solid currentColor;
     position: relative;
     top: 15px;
     left: 44px;
@@ -287,7 +281,7 @@
     flex-wrap: wrap;
     gap: 24px;
     padding-left: 24px;
-    padding-top: 105px;
+    padding-top: 102px;
     text-align: left;
     font-size: 20px;
     font-weight: 400;
@@ -306,10 +300,17 @@
 }
 
 .footer__address {
+    text-transform: none;
     text-align: left;
     margin-top: 3px;
     margin-right: 2px;
     line-height: 1.5;
+    margin-bottom: 82px;
+    font-style: normal;
+}
+
+.footer__nav {
+    margin-bottom: 115px;
 }
 
 .footer__menu {
@@ -345,7 +346,8 @@
 .footer__social-list {
     display: flex;
     justify-self: end;
-
+    padding-top: 3px;
+    margin-bottom: 131px;
 }
 
 .footer__social-list-item {
@@ -362,4 +364,4 @@
 .footer__social-icon {
     width: 48px;
     height: 48px;
-}
+}}
