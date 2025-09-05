@@ -138,8 +138,7 @@
     width: 256px;
     height: 51px;
     border: 1px solid currentColor;
-    /* Поменял позиционирование элемента и сделал с помощью margin */
-    margin-left: 43px; 
+    margin-left: 43px; /* Поменял позиционирование элемента и сделал с помощью margin */
     margin-top: 15px;
     color: #fff;
     font-weight: normal;
