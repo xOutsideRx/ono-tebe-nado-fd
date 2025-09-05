@@ -197,7 +197,7 @@
 }
 
 .card__type-movie_center {
-    background: url(../images/lot-02.svg) 60%;
+    background: url(../images/lot-02.svg);
 }
 
 .card__type-movie_right {
